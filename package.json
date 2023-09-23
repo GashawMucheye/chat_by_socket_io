@@ -1,0 +1,18 @@
+{
+  "name": "chat_by_socket_io",
+  "version": "1.0.0",
+  "description": "creating chat by using socket.io",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node backend/server.js",
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Gashaw Malede",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
